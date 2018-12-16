@@ -39,7 +39,7 @@ class Config {
      * @param string $dir
      */
     public function loadFromDir($dir) {
-        $di = new RecursiveDirectoryIterator($dir);
+        $di = new \RecursiveDirectoryIterator($dir);
 
         if (!isset($dataFile)) {
             $dataFile = array();
@@ -47,7 +47,7 @@ class Config {
 
         //сканирование всех поддиректорий, выборка индексных файлов
         // и слияние их в одни массив данных
-        foreach (new RecursiveIteratorIterator($di) as $filename => $file) {
+        foreach (new \RecursiveIteratorIterator($di) as $filename => $file) {
             if ($file->isDir())
                 continue;
 
