@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Smartceo\\Config\\": "src/"
+            "Smartceo\\Config\\": "src/Smartceo"
         }
     }
 }
