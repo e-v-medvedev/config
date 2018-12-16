@@ -12,10 +12,5 @@
         "psr-4": {
             "Smartceo\\Config\\": "src/"
         }
-    },
-   "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
     }
 }
