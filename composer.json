@@ -3,6 +3,7 @@
     "type": "library",
     "description": "Composer package by Smartceo",
     "license": "MIT",
+   "homepage": "http://github.com/e-v-medvedev/config",
     "require": {
         "php": ">=5.4.0"
  },
