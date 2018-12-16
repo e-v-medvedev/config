@@ -6,13 +6,13 @@
    "homepage": "http://github.com/e-v-medvedev/config",
     "require": {
         "php": ">=5.4.0"
- },
+    },
     "autoload": {
         "psr-4": {
             "Smartceo\\Config\\": "src/"
         }
     },
-       "extra": {
+    "extra": {
         "branch-alias": {
             "dev-master": "2.x-dev"
         }
